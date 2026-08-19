@@ -2,8 +2,6 @@
 
 Portable Minecraft server project for running `VANILLA`, `PAPER`, `FABRIC`, `FORGE`, and other server types through Docker.
 
-Develop on macOS, run on Linux.
-
 ## Quick start
 
 Run these commands on the Linux server:
@@ -46,8 +44,3 @@ make logs
 make ps
 make restart
 ```
-
-## Notes
-
-- The router port forward is already configured for `25565 -> 192.168.0.106:25565`
-- On Debian 13, Docker and Compose are already installed on your target host
